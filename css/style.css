@@ -86,7 +86,7 @@ div.offers h2{
     font-size: 2em;
 }
 
-ul li{
+div.offers ul li{
     float: left;
     width: 33.33%;
 }
@@ -103,6 +103,11 @@ div.categories h2{
     text-align: center;
 }
 
+div.categories-products ul li{
+    float: left;
+    width: 33.33%;
+}
+
 /*-- END CATEGORIES */
 
 /* FOOTER */
@@ -110,5 +115,22 @@ div.categories h2{
 footer{
     background-color: #23313E; //LIMPIAR LOS MALDITOS CLEAR FIX
 }
+
+div.container h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.container p{
+    color: white;
+    margin-left: 5px;
+    margin-bottom: -25px;
+}
+
+div.container ul li{
+    float: right;
+}
+
 
 
