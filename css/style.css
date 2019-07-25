@@ -30,6 +30,7 @@
 
 ul li{
     list-style: none;
+    margin-bottom: 20px;
 }
 
 /*--END GLOBAL--*/
@@ -82,6 +83,18 @@ div.offers h2{
 ul li{
     float: left;
     width: 33.33%;
+}
+
+/*-- END OFFERS */
+
+/* CATEGORIES */
+
+/* div.categories{
+    margin-top: 100px;
+} */
+
+div.categories h2{
+    text-align: center;
 }
 
 
