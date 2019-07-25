@@ -4,6 +4,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .product{
     border: 2px solid #e1e1e1;
     width: 280px;
@@ -95,6 +101,14 @@ ul li{
 
 div.categories h2{
     text-align: center;
+}
+
+/*-- END CATEGORIES */
+
+/* FOOTER */
+
+footer{
+    background-color: #23313E; //LIMPIAR LOS MALDITOS CLEAR FIX
 }
 
 
