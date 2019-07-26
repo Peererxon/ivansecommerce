@@ -4,6 +4,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -37,6 +42,17 @@
 ul li{
     list-style: none;
     margin-bottom: 20px;
+}
+
+/* login sign up*/
+
+.user-data{
+    width: 500px;
+    height: 500px;
+    border: 2px solid #e1e1e1;
+    width: 280px;
+    height: 350px;
+    font-weight: bold;
 }
 
 /*--END GLOBAL--*/
@@ -113,7 +129,11 @@ div.categories-products ul li{
 /* FOOTER */
 
 footer{
-    background-color: #23313E; //LIMPIAR LOS MALDITOS CLEAR FIX
+    background-color: #23313E;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
 }
 
 div.container h1{
@@ -130,6 +150,40 @@ div.container p{
 
 div.container ul li{
     float: right;
+}
+
+
+/* LOGIN */
+
+/* login header */ 
+
+div.main-nav-login{
+    background-color: #23313E;
+    height: 15vh;
+}
+
+div.main-nav-login h1{
+    color: white;
+    padding-top: 25px;
+    margin-left: 5px;
+    margin: 0 0 -5px 5px;
+    text-align: center;    
+}
+
+div.user-data{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.nickname{
+    margin-top: 100px;
+}
+
+div.password{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
