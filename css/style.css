@@ -127,6 +127,12 @@ footer{
      background-color: #23313E;
 }
 
+footer ul li{
+    color: white;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
 div.container h1{
     color: white;
     text-align: center;
