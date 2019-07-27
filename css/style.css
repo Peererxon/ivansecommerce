@@ -42,6 +42,12 @@ ul li{
 /* login sign up*/
 
 .user-data{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+
     width: 500px;
     height: 500px;
     border: 2px solid #e1e1e1;
@@ -179,13 +185,20 @@ div.main-nav-login h1 a{
 
 /*-- end login header */
 
-div.user-data{
+/* div.user-data{
     text-align: center;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-}
+
+    width: 500px;
+    height: 500px;
+    border: 2px solid #e1e1e1;
+    width: 280px;
+    height: 350px;
+    font-weight: bold;
+} */
 
 div.nickname{
     margin-top: 100px;
