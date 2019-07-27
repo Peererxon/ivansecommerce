@@ -66,6 +66,11 @@ div.main-nav h1{
     margin: 0 0 -5px 5px;    
 }
 
+div.main-nav h1 a{
+    text-decoration: none;
+    color: white;
+}
+
 div.search-bar{
     text-align: center;
     margin-bottom: 0;    
