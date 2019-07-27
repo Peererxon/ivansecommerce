@@ -172,6 +172,11 @@ div.main-nav-login h1{
     text-align: center;    
 }
 
+div.main-nav-login h1 a{
+    text-decoration: none;
+    color: white;
+}
+
 /*-- end login header */
 
 div.user-data{
